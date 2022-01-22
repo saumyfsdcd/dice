@@ -5,7 +5,7 @@ console.log(ra);
 
 var score1=0,score2=0;
 
-var imaged="images/"+ "dice" +ra+".png";
+var imaged="dice" +ra+".png";
 
 var image1=document.querySelectorAll("img")[0];
 image1.setAttribute("src", imaged);
@@ -15,7 +15,7 @@ r2=r2*6;
 r2=Math.floor(r2)+1;
 console.log(r2);
 
-var imaged2="images/"+ "dice" +r2+".png";
+var imaged2="dice" +r2+".png";
 var i2=document.querySelectorAll("img")[1];
 i2.setAttribute("src", imaged2);
 
